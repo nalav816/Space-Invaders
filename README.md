@@ -11,11 +11,11 @@
 3) Open any of the .pde files using Processing.
 4) Press the play button.
 ## How to play
-Player 1 Controls (Bottom Ship): 
+### Player 1 Controls (Bottom Ship): 
   * Move Left: Left-Arrow
   * Move Right: Right-Arrow
   * Shoot: Spacebar
-Player 2 Controls (Top Ship):
+### Player 2 Controls (Top Ship):
   * Move Left: A key
   * Move Right: D key
   * Shoot: Q key
