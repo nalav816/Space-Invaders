@@ -4,7 +4,7 @@ public class HealthUI {
   private Damageable p1, p2;
   
   public HealthUI(Damageable p1, Damageable p2){
-    this.icon = loadImage("lifeIcon.png");
+    this.icon = loadImage("imgs/lifeIcon.png");
     this.p1 = p1;
     this.p2 = p2;
   }

@@ -11,7 +11,7 @@ public class Alien extends Ship implements Damageable{
   public Alien(int posX, int posY, int direction, boolean inMiddle) {
     super(posX, posY, HITBOX, HITBOX,
       HEALTH, MOVEMENT_SPEED, SHOT_VELOCITY * direction, 0,
-      direction == -1 ? loadImage("upsideDownAlien.png") : loadImage("alien.png"));
+      direction == -1 ? loadImage("imgs/upsideDownAlien.png") : loadImage("imgs/alien.png"));
     this.fireRate = inMiddle ? chooseFromRange(MIDDLE_FIRE_RATE_RANGE) : chooseFromRange(FIRE_RATE_RANGE);
     this.inMiddle = inMiddle;
     //Outer aliens will start on cooldown

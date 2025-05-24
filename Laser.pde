@@ -10,7 +10,7 @@ class Laser extends GameObject {
   public Laser(Ship shooter) {
     super(shooter.getPosX(), -1000, HITBOX_X, HITBOX_Y);
     int sign = shooter.getShotVelocity() > 0 ? 1 : -1;
-    this.laserImage = loadImage(shooter.isPlayerShip() ? (sign == -1 ? "ShotP1.png" : "ShotP2.png") : (sign == -1 ? "ShotA1.png" : "ShotA2.png"));
+    this.laserImage = loadImage(shooter.isPlayerShip() ? (sign == -1 ? "imgs/ShotP1.png" : "imgs/ShotP2.png") : (sign == -1 ? "imgs/ShotA1.png" : "imgs/ShotA2.png"));
     this.posY = STARTING_Y_OFFSET * sign + shooter.getPosY();
     this.deltaY = shooter.getShotVelocity();
     this.shooter = shooter;

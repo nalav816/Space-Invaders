@@ -46,10 +46,10 @@ public void initGame() {
 }
 
 public void setup() {
-  GUN_SHOT = new SoundFile(this, "laserSound.wav");
+  GUN_SHOT = new SoundFile(this, "sounds/laserSound.wav");
   GUN_SHOT.amp(.5);
-  BARRIER_BROKEN = new SoundFile(this, "barrierBreak.wav");
-  BACKGROUND = loadImage("background.png");
+  BARRIER_BROKEN = new SoundFile(this, "sounds/barrierBreak.wav");
+  BACKGROUND = loadImage("imgs/background.png");
 }
 
 public void drawTitle() {

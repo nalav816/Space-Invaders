@@ -7,7 +7,7 @@ public class Barrier extends GameObject implements Damageable{
 
   public Barrier(int barrierNumber) { 
     super(barrierPositions[barrierNumber - 1][0], barrierPositions[barrierNumber - 1][1], HITBOX_X, HITBOX_Y);
-    this.img = barrierNumber < 4 ? loadImage("forceFieldOne.png") : loadImage("forceFieldTwo.png");
+    this.img = barrierNumber < 4 ? loadImage("imgs/forceFieldOne.png") : loadImage("imgs/forceFieldTwo.png");
     this.health = STARTING_HEALTH;
   }
 

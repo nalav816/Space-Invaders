@@ -5,7 +5,7 @@ public class Explosion extends GameObject{
   
   public Explosion(int posX, int posY) {
      super(posX, posY, 0, 0);
-     this.img = loadImage("explosion.png");
+     this.img = loadImage("imgs/explosion.png");
      this.timeActive = 0;
      
   }

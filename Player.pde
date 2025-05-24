@@ -14,7 +14,7 @@ class Player extends Ship {
   private Object left, right, shoot;
 
   public Player(int playerNumber) {
-    super(650, playerNumber == 1 ? 700 : 100, HITBOX_SIZE, HITBOX_SIZE, PLAYER_HEALTH, STARTING_SHIP_SPEED, STARTING_PROJECTILE_SPEED * (playerNumber == 1 ? -1 : 1), STARTING_FIRE_RATE, loadImage("Rocket" + playerNumber + ".png"));
+    super(650, playerNumber == 1 ? 700 : 100, HITBOX_SIZE, HITBOX_SIZE, PLAYER_HEALTH, STARTING_SHIP_SPEED, STARTING_PROJECTILE_SPEED * (playerNumber == 1 ? -1 : 1), STARTING_FIRE_RATE, loadImage("imgs/Rocket" + playerNumber + ".png"));
     this.plr = playerNumber;
     this.leftDown = false;
     this.rightDown = false;
