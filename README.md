@@ -10,7 +10,7 @@ On the technical side, this project features modular object-oriented classes, so
 ## How to run
 1) Download the Processing IDE (https://processing.org/download).
 2) Clone this repository.
-3) Open any of the .pde files using Processing.
+3) Open the SpaceInvaders.pde file using Processing.
 4) Press the play button.
 ## How to play
 ### Player 1 Controls (Bottom Ship): 
