@@ -5,7 +5,7 @@
 On the technical side, this project features modular object-oriented classes, sound integration using the Processing sound library, real-time input handling, and state management.
 ## Game Features
 1) 24 enemy aliens with randomized shot patterns. Beware of the aliens in the middle row! They are more deadly.
-2) Power-ups from killing enemies. Watch your shot speed, movement speed, and bullet speed ramp up as you take down aliens.
+2) Power-ups from killing enemies. Watch your firerate, movement speed, and bullet velocity ramp up as you take down aliens.
 3) Six barricades to help defend against the initial onslaught of bullets. 
 ## How to run
 1) Download the Processing IDE (https://processing.org/download).
