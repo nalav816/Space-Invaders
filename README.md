@@ -21,3 +21,5 @@ On the technical side, this project features modular object-oriented classes, so
   * Move Left: A key
   * Move Right: D key
   * Shoot: Q key
+## Developer's Note
+While originally created in January 2023, this project was updated in May 2025 to showcase my current skill level. While the core functionality and scope of the original project were preserved, the code structure has been optimized for readability and reusability.
